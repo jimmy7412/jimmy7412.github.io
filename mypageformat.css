@@ -1,7 +1,6 @@
 * {
   font-family: "courier new", "Lucida Calligraphy", "Comic Sans MS", monospace;
   letter-spacing: 0.5em;
-  margin: 10px, auto, 10px, auto;
 }
 h1 {
   font-family: "Comic Sans MS", "Lucida Calligraphy", serif;
@@ -13,4 +12,5 @@ h2 {
 }
 body {
   text-transform: capitalize;
+  margin: 10px, auto, 10px, auto;
 }
