@@ -1,3 +1,16 @@
 * {
-  font-family: fantasy;
+  font-family: "courier new", "Lucida Calligraphy", "Comic Sans MS", monospace;
+  letter-spacing: 0.5em;
+}
+h1 {
+  font-family: "Comic Sans MS", "Lucida Calligraphy", serif;
+  font-size: 500%;
+  text-transform: uppercase;
+}
+h2 {
+  text-decoration: blink;
+}
+body {
+  text-transform: capitalize;
+  margin: 10px, auto, 10px, auto;
 }
