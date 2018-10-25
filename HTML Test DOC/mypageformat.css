@@ -1,0 +1,33 @@
+* {
+  font-family: serif;
+}
+body {
+  text-align: center;
+  width: 960px;
+  margin: 20px auto 20px auto;
+}
+h1 {
+  margin: 10px;
+  text-transform: uppercase;
+}
+h2 {
+  text-decoration: blink;
+}
+p {
+  text-align: left;
+  margin: 10px;
+}
+.abstract {
+  width: 400px;
+  margin: 10px auto 10px auto;
+}
+.column1 {
+  float: left;
+  width: 400px;
+  margin: auto;
+}
+.column2 {
+  float: right;
+  width: 400px;
+  margin: auto;
+}
