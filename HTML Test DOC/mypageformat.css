@@ -6,6 +6,14 @@ body {
   width: 960px;
   margin: 20px auto 20px auto;
 }
+@page {
+	size: A4;
+}
+@page :first {
+	@top-center {
+		content: "This page unintentionally left blank."
+	}
+}
 h1 {
   margin: 10px;
   text-transform: uppercase;
