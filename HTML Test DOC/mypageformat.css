@@ -17,6 +17,7 @@ body {
 h1 {
   margin: 10px;
   text-transform: uppercase;
+  page-break-before: always;
 }
 h2 {
   text-decoration: blink;
