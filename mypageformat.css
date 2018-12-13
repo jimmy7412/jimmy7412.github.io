@@ -1,17 +1,42 @@
 * {
-  font-family: "courier new", "Lucida Calligraphy", "Comic Sans MS", monospace;
-  letter-spacing: 0.5em;
+  font-family: serif;
+}
+body {
+  text-align: center;
+  width: 960px;
+  margin: 20px auto 20px auto;
+}
+@page {
+	size: A4;
+}
+@page :first {
+	@top-center {
+		content: "This page unintentionally left blank."
+	}
 }
 h1 {
-  font-family: "Comic Sans MS", "Lucida Calligraphy", serif;
+  margin: 10px;
   text-transform: uppercase;
+  page-break-before: always;
 }
 h2 {
   text-decoration: blink;
 }
-body {
-  text-transform: capitalize;
-  text-align: center;
-  width: 960px;
-  margin: 10px, auto, 10px, auto;
+p {
+  text-align: left;
+  margin: 10px;
+}
+.abstract {
+  width: 400px;
+  margin: 10px auto 10px auto;
+}
+.column1 {
+  float: left;
+  width: 400px;
+  margin: auto;
+}
+.column2 {
+  float: right;
+  width: 400px;
+  margin: auto;
 }
