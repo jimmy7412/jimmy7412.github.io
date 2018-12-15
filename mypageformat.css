@@ -32,17 +32,17 @@ p {
 }
 .column1 {
   float: left;
-  width: 300px;
+  width: 350px;
   margin: auto;
 }
 .column2 {
   float: left;
-  width: 300px;
+  width: 350px;
   margin: auto;
 }
 .columnLink {
   float: right;
-  width: 100px;
+  width: 200px;
   margin: auto;
   clear: right;
 }
