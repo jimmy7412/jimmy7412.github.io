@@ -1,5 +1,5 @@
 //Set the Countdown date
-var countDownDate = new Date("Jan 1, 2019").getTime();
+var countDownDate = new Date("Jun 14, 2019").getTime();
 
 //Update the counter every one second
 var x = setInterval(function() {
@@ -17,13 +17,13 @@ var x = setInterval(function() {
   var seconds = Math.floor(distance % (1000 * 60) / 1000);
 
   //display result in an element whose id is demo
-  document.getElementById('demo').innerHTML = days + " Days " + hours + " Hours " + minutes + " Minutes " + seconds + " Seconds ";
+  document.getElementById('countdown').innerHTML = days + " Days " + hours + " Hours " + minutes + " Minutes " + seconds + " Seconds ";
   //document.write("<h2>" + days + "Days " + hours + "Hours " + minutes + "Minutes " + seconds + "Seconds " + "</h2>");
 
   //If the countdown is finished say so
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "Happy New Year!"
+    document.getElementById("countdown").innerHTML = "Happy New Year!"
     //document.write("<h3>Happy New Year!</h3>");
   }
 }, 1000);

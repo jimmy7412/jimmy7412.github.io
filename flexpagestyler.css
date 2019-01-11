@@ -75,3 +75,14 @@
     width: 100%;
   }
 }
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+.important {
+  padding: 15px;
+  text-align: center;
+}
