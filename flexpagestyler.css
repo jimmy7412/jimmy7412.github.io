@@ -1,0 +1,77 @@
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c; /*Green Background*/
+  color: white; /*White text*/
+}
+
+/*Increase the font size of the h1 element*/
+.header h1 {
+  font-size: 40px;
+}
+
+/*Style of the top navigation bar*/
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/*Style the navigation bar links*/
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/*The rightmost link needs to be right aligned*/
+.navbar a.right {
+  float: right;
+}
+
+/*Change color when hovered over*/
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/*Ensure proper sizing*/
+* {
+  box-sizing: border-box;
+}
+
+/*Contain the columns*/
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*This creates two uneven columns*/
+.side {
+  flex: 30%; /*Sets the width of the sidebar*/
+  background-color: #f1f1f1;
+  padding: 20px; /*Padding al around the box*/
+}
+
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/*Responsive layout make the columns stack if the screen is less than 700px*/
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+/*Responsive layout if the screen is less than 400px*/
+@@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
