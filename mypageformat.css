@@ -1,50 +1,47 @@
 * {
   font-family: serif;
+  box-sizing: border-box;
 }
 body {
-  text-align: center;
   width: 960px;
   margin: 20px auto 20px auto;
 }
 @page {
 	size: A4;
 }
-@page :first {
-	@top-center {
-		content: "This page unintentionally left blank."
-	}
+
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
 }
-h1 {
-  margin: 10px;
-  text-transform: uppercase;
-  page-break-before: always;
+
+.header h1 {
+  font-size: 40px;
 }
-h2 {
-  text-decoration: blink;
-}
-p {
-  text-align: left;
-  margin: 10px;
-}
+
 .abstract {
   width: 400px;
   margin: 10px auto 10px auto;
+  border-bottom: 6px solid;
 }
-.column1 {
-  float: left;
-  width: 350px;
-  margin: auto;
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
 }
-.column2 {
-  float: left;
-  width: 350px;
-  margin: auto;
+
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
 }
-.columnLink {
-  float: right;
-  width: 200px;
-  margin: auto;
-  clear: right;
+
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
 }
 
 /*Add Black Background to the top navigation*/
@@ -73,4 +70,27 @@ p {
 .topnav a.active {
   background-color: #4CAF50;
   color: white;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .topbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
+@page {
+	size: A4;
 }

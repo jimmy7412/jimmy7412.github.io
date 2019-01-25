@@ -1,3 +1,13 @@
+/*Ensure proper sizing*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 960px;
+  margin: 20px auto 20px auto;
+}
+
 .header {
   padding: 80px;
   text-align: center;
@@ -37,11 +47,6 @@
   color: black;
 }
 
-/*Ensure proper sizing*/
-* {
-  box-sizing: border-box;
-}
-
 /*Contain the columns*/
 .row {
   display: flex;
@@ -69,7 +74,7 @@
 }
 
 /*Responsive layout if the screen is less than 400px*/
-@@media screen and (max-width: 400px) {
+@media screen and (max-width: 400px) {
   .navbar a {
     float: none;
     width: 100%;

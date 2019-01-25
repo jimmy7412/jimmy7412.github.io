@@ -1,30 +1,42 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="mypageformat.css" />
 		<title>James' Webpage</title>
 	</head>
+
 	<body>
-		<h1>This is the Main Heading!</h1>
-		<script src="HTML_Test_DOC/add-content.js"></script>
-		<h3 id="demo"></h3>
+
+		<div class="header">
+			<h1>This is the Main Heading!</h1>
+			<script src="HTML_Test_DOC/add-content.js"></script>
+		</div>
+
 		<div class="topnav">
 			<a class="active" href="index.html">Home</a>
 			<a href="ThisPage.html">This Page</a>
+			<a href="flexpage.html">Flex Page</a>
 		</div>
 		<div class="abstract">
-			<p>This is the second line</p>
+			<h3 id="countdown"></h3>
+			<p>This is the countdown!</p>
 		</div>
-		<div class="column1">
-			<p>There is a successfully made column here. It makes up half of the page below the abstract.</p>
+
+		<div class="row">
+			<div class="side">
+				<p>There is a successfully made column here. It makes up half of the page below the abstract.</p>
+			</div>
+			<div class="main">
+				<p>This here is the second column a little to the right </p>
+			</div>
 		</div>
-		<div class="column2">
-			<p>This here is the second column a little to the right </p>
+
+		<div class=footer>
+			<p>Copyright!</p>
 		</div>
-		<div class="columnLink">
-			<p>This column will most likely contain links to other things.</p>
-		</div>
+
 	<script src="js/countdown.js"></script>
 	</body>
 </html>
