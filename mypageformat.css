@@ -41,6 +41,22 @@
   padding: 20px;
 }
 
+.col1 {
+  flex: 30%;
+  padding: 20px;
+  background-color: white;
+}
+.col2 {
+  flex: 30%;
+  padding: 20px;
+  background-color: white;
+}
+.col3 {
+  flex: 30%;
+  padding: 20px;
+  background-color: white;
+}
+
 /*Add Black Background to the top navigation*/
 .topnav {
   background-color: #333;
