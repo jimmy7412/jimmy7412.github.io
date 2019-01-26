@@ -3,11 +3,6 @@
   box-sizing: border-box;
 }
 
-body {
-  width: 960px;
-  margin: 20px auto 20px auto;
-}
-
 .header {
   padding: 80px;
   text-align: center;

@@ -2,10 +2,7 @@
   font-family: serif;
   box-sizing: border-box;
 }
-body {
-  width: 960px;
-  margin: 20px auto 20px auto;
-}
+
 @page {
 	size: A4;
 }
