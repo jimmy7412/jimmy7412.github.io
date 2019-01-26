@@ -19,8 +19,8 @@
 }
 
 .abstract {
-  width: 400px;
-  margin: 10px auto 10px auto;
+  margin: auto;
+  max-width: 500px;
   border-bottom: 6px solid;
 }
 
