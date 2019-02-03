@@ -57,7 +57,8 @@
 
 /*Add Black Background to the top navigation*/
 .topnav {
-  overflow: hidden;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 /* Style the links inside the navigation bar */
